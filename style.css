@@ -1,6 +1,19 @@
+/*Hero section/Navigation design*/
 .hero{
 	height:100vh;
 	width:100%;
 	background-image: url("blue night💙.png");
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*Navigation bars design*/
+.navbars{
+	align-items: center;
+	display: flex;
+}
+
+ul.links{
+	list-style-type: none;
+	align-items: center;
 }
