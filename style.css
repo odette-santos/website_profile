@@ -8,10 +8,20 @@
 	background-position: center;
 }
 /*Navigation bars design*/
+.navbars{
+	display: inline-block;
+	align-items: stretch;
+}
 /*Links design*/
 .links{
+	display: inline-block;
+	align-items: stretch;
 	list-style-type: none;
-	align-items: center;
+}
+
+.link-style{
+	text-decoration: none;
+	list-style-type: none;
 }
 /*About design*/
 /*Skills design*/
