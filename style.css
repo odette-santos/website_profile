@@ -11,8 +11,8 @@
 }
 /*navigation design*/
 nav{
-	padding: .5cm 15px 1cm 15px;
-	/*padding-top: .5cm;
+	padding: .25cm 15px 1cm 15px;
+	/*padding-top: .25cm;
 	padding-right: 15px;
 	padding-bottom: 1cm;
 	padding-left: 15px;*/
@@ -31,7 +31,7 @@ nav{
 
 }
 #logo{
-	font-size: 5em;
+	font-size: 3em;
 	font-weight: bold;
 	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 	text-decoration: none;
@@ -39,7 +39,7 @@ nav{
 
 a.logo{
 	color: #7f5539;
-	text-shadow:  0 5px #dac8a7 /*0 0 10px #0a26a7*/;
+	text-shadow:  0 3px #dac8a7 /*0 0 10px #0a26a7*/;
 }
 /*Section designs*/
 #About, #Skills, #Contact{
