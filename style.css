@@ -1,28 +1,52 @@
 /*Hero section yung nasa logo something*/
 .hero{
-	height:100%;
-	width:100;
-	background-color: rgba(123, 207, 233, 0.705);
+	height:auto;
+	width:auto;
+	/*background-image: url("sample.jpg");*/
+	background-color: rgb(220, 240, 245);
+	background-blend-mode: color;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
-/*Navigation bars design*/
-.navbars{
-	display: inline-block;
-	align-items: stretch;
+/*navigation design*/
+nav{
+	padding: .5cm 15px 1cm 15px;
+	/*padding-top: .5cm;
+	padding-right: 15px;
+	padding-bottom: 1cm;
+	padding-left: 15px;*/
 }
+
 /*Links design*/
 .links{
-	display: inline-block;
-	align-items: stretch;
+	/*display: inline;
+	align-items: stretch;*/
 	list-style-type: none;
+	
 }
 
 .link-style{
 	text-decoration: none;
-	list-style-type: none;
+
 }
+#logo{
+	font-size: 5em;
+	font-weight: bold;
+	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+	text-decoration: none;
+}
+
+a.logo{
+	color: #7f5539;
+	text-shadow:  0 5px #dac8a7 /*0 0 10px #0a26a7*/;
+}
+/*Section designs*/
+#About, #Skills, #Contact{
+	margin-top: 50;
+	padding-top: 10cm;
+}
+
 /*About design*/
 /*Skills design*/
 /*Contact design*/
