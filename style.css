@@ -1,50 +1,70 @@
-/*Hero section yung nasa logo something*/
-.hero{
-	height:auto;
-	width:auto;
-	/*background-image: url("sample.jpg");*/
-	background-color: rgb(220, 240, 245);
-	background-blend-mode: color;
-	background-repeat: no-repeat;
+/*html page designs*/
+html{
+	background-image: url("sample.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
-/*navigation design*/
-nav{
-	padding: .25cm 15px 1cm 15px;
-	/*padding-top: .25cm;
-	padding-right: 15px;
-	padding-bottom: 1cm;
-	padding-left: 15px;*/
+/*navigation div design */
+.navigation{
+	background-image: url("sample.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.linkdiv{
+	float: right; /*floats the navigations to the right*/
+	overflow: hidden;
 }
 
 /*Links design*/
-.links{
-	/*display: inline;
-	align-items: stretch;*/
-	list-style-type: none;
-	
+.ul-links{
+	list-style-type: none; /*removes style of the link*/
 }
 
 .link-style{
-	text-decoration: none;
-
+	text-decoration: none; /* removes the underline on the link*/
+	color: #000; /*changes link font-color*/
+	padding:  15px 15px 15px 15px; /*top, right, bottom, left paddings*/
+	font-weight: bold;
 }
+/*list design*/
+.list{
+	display: inline-block; /*makes the lists horizontal*/
+	text-align: center;
+	font-size: 1.5em;
+	font-family: cursive;
+}
+.list:hover{
+	text-shadow:  0 5px #dac8a7
+	
+}
+/*Logo-link design*/
 #logo{
 	font-size: 3em;
 	font-weight: bold;
 	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 	text-decoration: none;
+	padding:  15px 15px;
+	color: #7f5539;
+	text-shadow:  0 3px #dac8a7
 }
 
-a.logo{
-	color: #7f5539;
-	text-shadow:  0 3px #dac8a7 /*0 0 10px #0a26a7*/;
-}
+
+
+/*about-link design
+a.about{
+	display: inline;
+} --not sure if still needed so comment out muna*/
+
+/*Navigation design ends here*/
+
 /*Section designs*/
 #About, #Skills, #Contact{
-	margin-top: 50;
-	padding-top: 10cm;
+	margin-top: 2.5px;
+	padding-top: 5cm;
 }
 
 /*About design*/
