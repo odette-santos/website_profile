@@ -8,11 +8,7 @@ html{
 }
 /*navigation div design */
 .navigation{
-	background-image: url("sample.jpg");
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-color: #e2dbd6;
 }
 .linkdiv{
 	float: right; /*floats the navigations to the right*/
@@ -34,11 +30,11 @@ html{
 .list{
 	display: inline-block; /*makes the lists horizontal*/
 	text-align: center;
-	font-size: 1.5em;
-	font-family: cursive;
+	font-size: 1.75em;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .list:hover{
-	text-shadow:  0 5px #dac8a7
+	text-shadow:  0 5px #926107
 	
 }
 /*Logo-link design*/
@@ -52,21 +48,69 @@ html{
 	text-shadow:  0 3px #dac8a7
 }
 
-
-
-/*about-link design
-a.about{
-	display: inline;
-} --not sure if still needed so comment out muna*/
-
+/*hero or banner design*/
+.hero{
+	background-color: beige;/*change to pic*/
+	text-align: center;
+	height: 45.25em;
+	width: 100%;
+	
+}
+.hero-text{
+	padding: 125px 50px 50px 100px;
+	font: 3em sans-serif;
+}
 /*Navigation design ends here*/
 
 /*Section designs*/
 #About, #Skills, #Contact{
-	margin-top: 2.5px;
-	padding-top: 5cm;
+	margin-top: 1.5cm;
 }
 
 /*About design*/
+#About{
+	background-color: rgba(187, 248, 215, 0.932);/*change to pic*/
+	text-align: center;
+	height: 44em;
+	width: 100%;
+}
+
+.text h2{
+	font: sans-serif;
+	font-size: 5.5em;
+	margin-top: 0%;
+	margin-bottom: 2%;
+	padding-top: 2px;
+}
+.text h3{
+	font: icon;
+	font-size: 1.5em;
+	margin-top: 0%;
+	padding-top: 0%;
+}
 /*Skills design*/
+#Skills{
+	background-color: rgba(170, 204, 243, 0.932);/*change to pic*/
+	text-align: center;
+	height: 44em;
+	width: 100%;
+	padding-top: ;
+}
+#Skills div{
+	font: sans-serif;
+	font-size: 5.5em;
+	margin-top: %;
+	padding-top: 0%;
+	margin-bottom: 2%;
+}
+#Skills li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 50px 0 15px;
+}
+#Skills ul{
+	margin-top: 0%;
+	margin-bottom: 2%;
+	padding-top: 0%;
+}
 /*Contact design*/
