@@ -114,3 +114,43 @@ html{
 	padding-top: 0%;
 }
 /*Contact design*/
+#Contact{
+	background-color: rgba(198, 170, 243, 0.932);/*change to pic*/
+	height: 44em;
+	width: 100%;
+	padding-top: 0%;
+}
+#Contact form{
+	padding: 4cm 3cm 1cm 3cm;
+	float: right;
+	text-align: center;
+}
+
+#name{
+	height: 5ch;
+	width: 15cm;
+	font-size: medium;
+	margin-top: 0%;
+}
+
+#message{
+	margin-top: 3%;
+	height: 5cm;
+	width: 15cm;
+	font-size: 20px;
+	text-align: left;
+	padding-top: 0%;
+}
+
+#submit{
+	padding: .50cm 1cm .50cm 1cm;
+	margin-top: 2%;
+	font: 1em sans-serif;
+}
+
+#Contact a{
+	float: left;
+	padding-top: 5cm;
+	padding-left: 3cm;
+	font-size: 250px;
+}
