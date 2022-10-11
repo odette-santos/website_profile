@@ -1,6 +1,6 @@
 /*html page designs*/
 html{
-	background-image: url("sample.jpg");
+	background-image: url("pastelsky.jpeg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -8,7 +8,8 @@ html{
 }
 /*navigation div design */
 .navigation{
-	background-color: #e2dbd6;
+	background-color: #c8eee5af;
+	
 }
 .linkdiv{
 	float: right; /*floats the navigations to the right*/
@@ -34,7 +35,7 @@ html{
 	font-family: Arial, Helvetica, sans-serif;
 }
 .list:hover{
-	text-shadow:  0 5px #926107
+	text-shadow:  0 5px #db8f03
 	
 }
 /*Logo-link design*/
@@ -45,20 +46,23 @@ html{
 	text-decoration: none;
 	padding:  15px 15px;
 	color: #7f5539;
-	text-shadow:  0 3px #dac8a7
+	text-shadow:  0 3px #e6990b
 }
 
 /*hero or banner design*/
 .hero{
-	background-color: beige;/*change to pic*/
-	text-align: center;
+	background-image: url("flowers.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: right;
 	height: 45.25em;
 	width: 100%;
 	
 }
 .hero-text{
-	padding: 125px 50px 50px 100px;
-	font: 3em sans-serif;
+	padding: 150px 100px 50px 100px;
+	font: 3.1em sans-serif;
 }
 /*Navigation design ends here*/
 
@@ -69,10 +73,15 @@ html{
 
 /*About design*/
 #About{
-	background-color: rgba(187, 248, 215, 0.932);/*change to pic*/
+	background-image: url("hana.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 	text-align: center;
-	height: 44em;
+	height: 49em;
 	width: 100%;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
 }
 
 .text h2{
@@ -90,11 +99,15 @@ html{
 }
 /*Skills design*/
 #Skills{
-	background-color: rgba(170, 204, 243, 0.932);/*change to pic*/
+	background-image: url("plainmountains.jpeg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 	text-align: center;
-	height: 44em;
+	height: 49em;
 	width: 100%;
 	padding-top: 0%;
+	margin-top: 0%;
 }
 #Skills div{
 	font: sans-serif;
@@ -107,6 +120,8 @@ html{
 	list-style-type: none;
 	display: inline-block;
 	padding: 0 50px 0 15px;
+	padding-top: 0%;
+	margin-top: 0%;
 }
 #Skills ul{
 	margin-top: 0%;
@@ -115,8 +130,11 @@ html{
 }
 /*Contact design*/
 #Contact{
-	background-color: rgba(198, 170, 243, 0.932);/*change to pic*/
-	height: 44em;
+	background-image: url("blue\ night💙.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 40em;
 	width: 100%;
 	padding-top: 0%;
 }
@@ -126,6 +144,15 @@ html{
 	text-align: center;
 }
 
+#logocon {
+	font-size: 3em;
+	font-weight: bold;
+	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+	text-decoration: none;
+	padding:  15px 15px;
+	color: #7f5539;
+	text-shadow:  0 10px #e6990b
+}
 #name{
 	height: 5ch;
 	width: 15cm;
@@ -150,7 +177,7 @@ html{
 
 #Contact a{
 	float: left;
-	padding-top: 5cm;
+	padding-top: 4cm;
 	padding-left: 3cm;
 	font-size: 250px;
 }
